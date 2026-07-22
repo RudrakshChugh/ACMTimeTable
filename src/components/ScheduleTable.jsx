@@ -132,29 +132,18 @@ const ScheduleTable = ({ scheduleData }) => {
           <div
             key={`${day}-${time}-${index}`}
             contentEditable={isEditing}
-            suppressContentEditableWarning={true}
             className={`schedule-input schedule-input-${index} ${divClassName} ${index === 0 ? getColorName(value) : ""} ${index === 3 && getMiniBoxExpanded(index) ? 'mini-expanded' : ''}`}
             onClick={(e) => index === 3 && toggleMiniBoxExpanded(day, time, index, e)}
           >
-            {typeof value === 'string' && value.includes('/') ? (
-              value.split('/').map((part, i, arr) => (
-                <React.Fragment key={i}>
-                  {part}
-                  {i < arr.length - 1 && <div style={{ borderTop: "1px dashed #ccc", margin: "4px 0", width: "100%" }} />}
-                </React.Fragment>
-              ))
-            ) : (
-              value
-            )}
+             {value}
           </div>
         ))  : (
                   // Fallback for cases where there's no entry
                   <>
-                       <div contentEditable={isEditing} suppressContentEditableWarning={true} className={`${divClassName} schedule-input-0 pink`}></div>
-                        <div contentEditable={isEditing} suppressContentEditableWarning={true} className={`${divClassName} schedule-input-1`}>Edit Here</div>
-                        <div contentEditable={isEditing} suppressContentEditableWarning={true} className={`${divClassName} schedule-input-2`}>Edit Here</div>
-                        <div contentEditable={isEditing} suppressContentEditableWarning={true} className={`${divClassName} schedule-input-3`}></div>
-                      
+                       <div contentEditable={isEditing} className={`${divClassName} schedule-input-0 pink`}></div>
+                        <div contentEditable={isEditing} className={`${divClassName} schedule-input-1`}>Edit Here</div>
+                        <div contentEditable={isEditing} className={`${divClassName} schedule-input-2`}>Edit Here</div>
+                        <div contentEditable={isEditing} className={`${divClassName} schedule-input-3`}></div>
                   </>
               )}
               <button
