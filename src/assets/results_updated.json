@@ -73428,7 +73428,9 @@
                 "B204/F314 LAB",
                 "ENGINEERING DESIGN PROJECT",
                 "Practical"
-            ],
+            ]
+        },
+        "Tuesday": {
             "08:00 AM": [
                 "UTA018P",
                 "PL4(L011) LAB",
@@ -73440,9 +73442,7 @@
                 "PL4(L011) LAB",
                 "OBJECT ORIENTED PROGRAMMING",
                 "Practical"
-            ]
-        },
-        "Tuesday": {
+            ],
             "09:40 AM": [
                 "UTA018L",
                 "LT301",
@@ -73453,12 +73453,6 @@
                 "UCS303L",
                 "LT301",
                 "OPERATING SYSTEMS",
-                "Lecture"
-            ],
-            "08:00 AM": [
-                "UCS320L",
-                "LT301",
-                "SUSTAINABLE GREEN COMPUTING",
                 "Lecture"
             ],
             "11:20 AM": [
@@ -73475,6 +73469,12 @@
             ]
         },
         "Wednesday": {
+            "08:00 AM": [
+                "UCS320L",
+                "LT301",
+                "SUSTAINABLE GREEN COMPUTING",
+                "Lecture"
+            ],
             "08:50 AM": [
                 "UTA018L",
                 "LT301",
@@ -73536,7 +73536,9 @@
                 "F110",
                 "DISCRETE MATHEMATICAL STRUCTURES",
                 "Tutorial"
-            ],
+            ]
+        },
+        "Friday": {
             "08:00 AM": [
                 "UCS301P",
                 "DS-2(L005) LAB",
@@ -73548,9 +73550,7 @@
                 "DS-2(L005) LAB",
                 "DATA STRUCTURES",
                 "Practical"
-            ]
-        },
-        "Friday": {
+            ],
             "09:40 AM": [
                 "UCS405L",
                 "LT301",
