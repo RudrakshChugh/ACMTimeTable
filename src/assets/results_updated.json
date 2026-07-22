@@ -44090,12 +44090,6 @@
                 "SS2(L202) LAB",
                 "OPERATING SYSTEMS",
                 "Practical"
-            ],
-            "08:00 AM": [
-                "UTA018L",
-                "LT301",
-                "OBJECT ORIENTED PROGRAMMING",
-                "Lecture"
             ]
         },
         "Tuesday": {
@@ -44143,6 +44137,12 @@
             ]
         },
         "Wednesday": {
+            "08:00 AM": [
+                "UCS303L",
+                "LT302",
+                "OPERATING SYSTEMS",
+                "Lecture"
+            ],
             "08:50 AM": [
                 "UTA018L",
                 "LT302",
@@ -49899,7 +49899,13 @@
     },
     "2Q23": {
         "Monday": {
-            "8:50:AM": [
+            "08:00 AM":[
+                "UCS303L",
+                "LT303",
+                "OPERATING SYSTEMS",
+                "Lecture"
+            ],
+            "08:50 AM": [
                 "UCS301L",
                 "LT303",
                 "DATA STRUCTURES",
