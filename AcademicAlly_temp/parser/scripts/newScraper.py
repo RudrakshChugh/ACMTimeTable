@@ -87,22 +87,21 @@ def main():
     with open(file_path, 'r') as file:
         json_data = json.load(file)
 
-    course_codes, skipped = extract_course_codes(json_data)
-    courses = {}
-    for code in course_codes:
-        course_name = get_course_name(code)
-        courses[code] = course_name
+    try:
+        with open('subjects.json', 'r') as f:
+            courses = json.load(f)
+    except:
+        courses = {}
 
-    for code in skipped:
-        course_name = get_course_name(code)
-        courses[code] = course_name
+    course_codes, skipped = extract_course_codes(json_data)
+    
+    for code in course_codes.union(skipped):
+        if code not in courses or courses[code] == code:
+            course_name = get_course_name(code)
+            courses[code] = course_name
 
     with open('subjects.json', 'w') as json_file:
         json.dump(courses, json_file, indent=4)
-
-
-
-
 
     print("Skipped", skipped)
     print("Course Codes", course_codes)
