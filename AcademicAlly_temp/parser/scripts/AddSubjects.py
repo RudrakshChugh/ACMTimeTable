@@ -23,7 +23,7 @@ def Update(schedule, subjects):
 
             for code in subjectCodes:
                 subjectCode = code[:-1] if code[-1] in 'LTP' else code
-                if subjectCode in subjects:
+                if subjectCode in subjects and subjects[subjectCode].strip():
                     subjectNames.append(subjects[subjectCode])
                 else:
                     subjectNames.append(subjectCode)
