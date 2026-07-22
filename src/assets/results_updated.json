@@ -61004,7 +61004,9 @@
                 "B107",
                 "CIRCUIT ANALYSIS AND SYNTHESIS",
                 "Tutorial"
-            ],
+            ]
+        },
+        "Wednesday": {
             "08:00 AM": [
                 "UMA035P",
                 "NA(G204) LAB",
@@ -61016,9 +61018,7 @@
                 "NA(G204) LAB",
                 "OPTIMIZATION TECHNIQUES",
                 "Practical"
-            ]
-        },
-        "Wednesday": {
+            ],
             "09:40 AM": [
                 "UMA035L",
                 "F201",
@@ -70647,12 +70647,6 @@
                 "SUSTAINABLE GREEN COMPUTING",
                 "Lecture"
             ],
-            "08:00 AM": [
-                "UCS303L",
-                "LT402",
-                "OPERATING SYSTEMS",
-                "Lecture"
-            ],
             "01:50 PM": [
                 "UCS303P",
                 "DBMS-2(L207) LAB",
@@ -70698,9 +70692,9 @@
                 "Lecture"
             ],
             "08:00 AM": [
-                "UCS405L",
+                "UCS303L",
                 "LT302",
-                "DISCRETE MATHEMATICAL STRUCTURES",
+                "OPERATING SYSTEMS",
                 "Lecture"
             ],
             "09:40 AM": [
@@ -70717,6 +70711,12 @@
             ]
         },
         "Thursday": {
+            "08:00 AM": [
+                "UCS405L",
+                "LT402",
+                "DISCRETE MATHEMATICAL STRUCTURES",
+                "Lecture"
+            ],
             "08:50 AM": [
                 "UCS303L",
                 "LT302",
