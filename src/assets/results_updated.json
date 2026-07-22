@@ -72189,7 +72189,13 @@
             ]
         },
         "Monday": {
-            "8:50:AM": [
+            "08:00 AM": [
+                "UTA018L",
+                "LT302",
+                "OBJECT ORIENTED PROGRAMMING",
+                "Lecture"
+            ],
+            "08:50 AM": [
                 "UCS303L",
                 "LT302",
                 "OPERATING SYSTEMS",
@@ -72213,13 +72219,13 @@
                 "DATA STRUCTURES",
                 "Lecture"
             ],
-            "9:40: AM": [
+            "09:40 AM": [
                 "UCS303P",
                 "DBMS-2(L207) LAB",
                 "OPERATING SYSTEMS",
                 "Practical"
             ],
-            "10:30: AM": [
+            "10:30 AM": [
                 "UCS303P",
                 "DBMS-2(L207) LAB",
                 "OPERATING SYSTEMS",
@@ -72303,6 +72309,12 @@
             ]
         },
         "Thursday": {
+            "08:00 AM": [
+                "UMA303L",
+                "LT301",
+                "OPERATING SYSTEMS",
+                "Lecture"
+            ],
             "08:50 AM": [
                 "UMA021L",
                 "LT301",
